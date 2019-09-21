@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+header{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+header #HeaderContainer{
+    max-width: 1400px;
+    margin: 50px auto;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header #title{
+    padding-left: 30px;
+    height: 200px;
+    width: 600px;
+    color: #e3e3e3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+header #score{
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    color: white;
+}
+#Scores{
+    color:#9857B0;
+}
+.container{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.options{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.btnSections{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.results{
+    visibility: hidden;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.btn{
+    width: 28%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+.rock{
+    background: #EB5757;
+}
+.paper{
+    background: #2D9CDB;
+}
+.scissors{
+    background: #6FCF97;
+}
+.content{
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 480px) 
+{ 
+    header{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+    header #HeaderContainer{
+        margin: 50px auto;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header #title{
+        padding-left: 10px;
+        height: 70px;
+        width: auto;
+        color: #e3e3e3;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+    }
+    header #score{
+        width: 70px;
+        height: 100px;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        color: white;
+    }
+    #Scores{
+        color:#9857B0;
+    }
+    .container{
+        margin: auto;
+        width: 170px;
+        height: 300px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        color: white;
+    }
+    .options{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .btnSections{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .results{
+        visibility: hidden;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .btn{
+        width: 28%;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+        border: 1px solid #000;
+    }
+    .rock{
+        background: #EB5757;
+    }
+    .paper{
+        background: #2D9CDB;
+    }
+    .scissors{
+        background: #6FCF97;
+    }
+    .content{
+        display: flex;
+    }
+    .container > *,
+    .btn  {
+        font-size: 15px;
+    }
+
+}

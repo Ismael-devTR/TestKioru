@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div id="HeaderContainer">
+                <div id="title">
+                       <h2> Let's play rock, <br> paper, scissors!</h2>
+                   </div>
+                   <div id="score">
+                        <h6 id="Scores"> SCORE </h6> 
+                        <div class="content">
+                                <h6 id="humanScore"> Tú: 0</h6> 
+                        </div>
+                        <div class="content">
+                                <h6 id="computerScore"> PC: 0 </h6> 
+                        </div>
+                   </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="options">
+            <p>Elige tu jugada </p>
+        </div>
+        <div class="btnSections">
+            <a  id="rockBtn"  class="btn rock">Piedra</a>
+            <a  id="paperBtn" class="btn paper">Papel</a>
+            <a  id="scissorsBtn" class="btn scissors">Tijera</a>
+        </div>
+        <div class="results" id="results">
+            <div class="content">
+                <p>Elegiste: </p><p id="user"></p>
+            </div>
+            <div class="content">
+                    <p>La PC eligió: </p><p id="pc"></p>
+                </div>
+            <br>
+            <p id="resultGame"></p>
+        </div>
+    </div>
+    <script src="./js/app.js" ></script>
+</body>
+</html>
